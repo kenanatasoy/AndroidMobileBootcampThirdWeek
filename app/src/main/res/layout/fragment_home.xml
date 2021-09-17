@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/home_fragment_background_gradient"
+    android:id="@+id/fragment_home"
+    tools:context=".fragments.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/home_card_view"
+        android:layout_width="388dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ic_ellipse_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ellipse_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_green_crown"
+                app:layout_constraintBottom_toBottomOf="@+id/ic_ellipse_1"
+                app:layout_constraintEnd_toEndOf="@+id/ic_ellipse_1"
+                app:layout_constraintStart_toStartOf="@+id/ic_ellipse_1"
+                app:layout_constraintTop_toTopOf="@+id/ic_ellipse_1" />
+
+            <TextView
+                android:id="@+id/bold_point_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/sf_pro_display_bold"
+                android:text="700"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/ic_ellipse_1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:text="@string/point"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/text_size_small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/bold_point_text"
+                app:layout_constraintTop_toTopOf="@+id/bold_point_text" />
+
+            <ImageView
+                android:id="@+id/ic_ellipse_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:src="@drawable/ic_ellipse_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/bold_point_text"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_star"
+                app:layout_constraintBottom_toBottomOf="@+id/ic_ellipse_2"
+                app:layout_constraintEnd_toEndOf="@id/ic_ellipse_2"
+                app:layout_constraintStart_toStartOf="@+id/ic_ellipse_2"
+                app:layout_constraintTop_toTopOf="@+id/ic_ellipse_2" />
+
+            <TextView
+                android:id="@+id/level_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/sf_pro_display_bold"
+                android:text="@string/level_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/ic_ellipse_2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progress_horizontal"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:trackThickness="@dimen/track_thickness"
+                app:trackColor="@color/light_pink"
+                app:trackCornerRadius="100dp"
+                android:progress="49"
+                app:indicatorColor="@color/pink"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/level_text"
+                app:layout_constraintTop_toBottomOf="@+id/level_text" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ic_home_upper_group_24"
+        android:layout_width="190dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/ic_home_upper_group_24"
+        app:layout_constraintBottom_toTopOf="@+id/middle_divider"
+        app:layout_constraintStart_toStartOf="@+id/home_card_view"
+        app:layout_constraintTop_toBottomOf="@+id/home_card_view" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ellipse_9"
+        app:layout_constraintBottom_toTopOf="@+id/upper_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ic_home_upper_group_24"
+        app:layout_constraintTop_toBottomOf="@+id/home_card_view"
+        app:layout_constraintVertical_bias="0.261" />
+
+
+    <TextView
+        android:id="@+id/upper_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="@string/home_upper_text"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintBottom_toTopOf="@id/middle_divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_card_view" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_pink_button_shape"
+        android:drawableEnd="@drawable/ic_right_arrow"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="@string/start_now"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintBottom_toTopOf="@+id/middle_divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upper_text_view" />
+
+    <View
+        android:id="@+id/middle_divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FDDCDC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ic_home_lower_group_24"
+        android:layout_width="117dp"
+        android:layout_height="142dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/ic_home_lower_group_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/middle_divider" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_ellipse_4"
+        app:layout_constraintBottom_toTopOf="@+id/ic_home_lower_group_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/middle_divider" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="14dp"
+        android:src="@drawable/ic_ellipse_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/middle_divider"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <TextView
+        android:id="@+id/lower_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="@string/home_lower_text"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/middle_divider" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="@color/white_tint"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="@string/start_now"
+        android:textAllCaps="false"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/text_size_normal"
+        app:cornerRadius="200dp"
+        app:icon="@drawable/ic_right_arrow"
+        app:iconGravity="end"
+        app:iconTint="@color/light_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lower_text_view"
+        app:strokeColor="@color/light_black"
+        app:strokeWidth="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.androidmobilebootcampthirdweek.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.androidmobilebootcampthirdweek.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_emptyStateFragment2"
+            app:destination="@id/emptyStateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emptyStateFragment"
+        android:name="com.example.androidmobilebootcampthirdweek.fragments.EmptyStateFragment"
+        android:label="fragment_empy_state"
+        tools:layout="@layout/fragment_empy_state" >
+        <action
+            android:id="@+id/action_emptyStateFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.androidmobilebootcampthirdweek.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_selectAvatarFragment"
+            app:destination="@id/selectAvatarFragment"
+            app:enterAnim="@anim/slide_in_down"
+            app:exitAnim="@anim/slide_out_down"
+            app:popEnterAnim="@anim/slide_in_up"
+            app:popExitAnim="@anim/slide_out_up" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectAvatarFragment"
+        android:name="com.example.androidmobilebootcampthirdweek.fragments.SelectAvatarFragment"
+        android:label="fragment_select_avatar"
+        tools:layout="@layout/fragment_select_avatar" >
+    </fragment>
+
+</navigation>

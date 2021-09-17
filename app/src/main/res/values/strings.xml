@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AndroidMobileBootcampThirdWeek</string>
+    <string name="initial_desc_text">Kelime testi sizin dil seviyenizi ölçmek içindir.
+        Test sonunda doğru ve yanlışlarınızı görebileceksiniz!</string>
+    <string name="cloud">cloud</string>
+    <string name="greater_cloud">greater_cloud</string>
+    <string name="decky_logo">decky_logo</string>
+    <string name="decky_bottom_left_logo">decky_bottom_left_logo</string>
+    <string name="skip">Atla</string>
+    <string name="word_test">Kelime Testi</string>
+    <string name="decky_bottom_logo">decky_bottom_logo</string>
+    <string name="point">Puan</string>
+    <string name="level_15">Level 15</string>
+    <string name="home_upper_text">İki Oyuncu</string>
+    <string name="home_lower_text">Tek Oyuncu</string>
+    <string name="start_now">Şimdi Oyna</string>
+    <string name="what_is_decky">decky nedir?</string>
+    <string name="full_name">John Doe</string>
+    <string name="battle_count">12</string>
+    <string name="success_count">9</string>
+    <string name="battle">Battle</string>
+    <string name="success">Başarı</string>
+    <string name="follow_us">Bizi takip edin</string>
+    <string name="decks">Decklerim</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_state_title">Empty State Title</string>
+    <string name="empty_state_sub_word">empty state sub word</string>
+    <string name="select_avatar_text">Kullanıcı adınızı oluşturun ve size uygun bir avatar seçin</string>
+
+</resources>
