@@ -16,9 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         bottomNavigationView.itemIconTintList = null
-//        bottomNavigationView.setOnItemSelectedListener { menuItem ->
-//
-//        }
 
         val navController = findNavController(R.id.fragment_container)
         NavigationUI.setupWithNavController(bottomNavigationView, navController)
