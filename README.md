@@ -3,4 +3,5 @@ The Bootcamp's third week assignment
 
 ## An Overview to the App
 
-<img src="https://user-images.githubusercontent.com/35261110/133777205-2e118248-524d-4ec0-b854-8b8d623fe2c7.gif" width="338" height="721"/>
+<img src="https://user-images.githubusercontent.com/35261110/133926267-42ebb4e6-3d50-4b1d-ba84-66ee979bc593.gif" width="338" height="721"/>
+
