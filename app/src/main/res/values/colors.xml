@@ -10,6 +10,7 @@
     <color name="green">#00A597</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_grey">#999999</color>
+    <color name="light_grey_2">#BEBEBE</color>
     <color name="dark_yellow">#FDD015</color>
     <color name="yellow">#FECB6E</color>
     <color name="light_yellow">#FFF7EF</color>
@@ -22,5 +23,4 @@
     <color name="button_background_color">#A259FF</color>
     <color name="success_color">#00A597</color>
     <color name="circular_progress_background_tint">#19000000</color>
-
 </resources>

@@ -87,13 +87,13 @@
 
     <ImageButton
         android:id="@+id/profileEditButton"
-        android:layout_width="42dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="58dp"
         android:layout_marginBottom="200dp"
         android:background="@drawable/circular_button"
-        android:backgroundTint="@color/white"
-        android:src="@drawable/ic_temporary_edit_icon"
+        android:paddingTop="4dp"
+        android:src="@drawable/ic_edit_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView2"

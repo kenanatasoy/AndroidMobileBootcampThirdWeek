@@ -1,5 +1,7 @@
 package com.example.androidmobilebootcampthirdweek
 
+import android.content.res.ColorStateList
+import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -13,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        bottomNavigationView.itemIconTintList = null
+//        bottomNavigationView.setOnItemSelectedListener { menuItem ->
+//
+//        }
 
         val navController = findNavController(R.id.fragment_container)
         NavigationUI.setupWithNavController(bottomNavigationView, navController)

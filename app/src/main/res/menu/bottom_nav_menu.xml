@@ -4,16 +4,16 @@
     <item
         android:id="@+id/homeFragment"
         android:title="@string/battle"
-        android:icon="@drawable/ic_battle_passive" />
+        android:icon="@drawable/battle_selector" />
 
     <item
         android:id="@+id/emptyStateFragment"
         android:title="@string/decks"
-        android:icon="@drawable/ic_deck_passive" />
+        android:icon="@drawable/deck_selector" />
 
     <item
         android:id="@+id/profileFragment"
         android:title="@string/profile"
-        android:icon="@drawable/ic_profile_active" />
+        android:icon="@drawable/profile_selector" />
 
 </menu>

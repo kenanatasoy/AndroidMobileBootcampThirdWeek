@@ -26,12 +26,17 @@
         android:layout_marginStart="20dp"
         android:visibility="invisible"
         android:layout_marginEnd="20dp"
+        app:itemIconTint="@color/pink"
+        app:itemTextAppearanceActive="@style/BottomNavigationViewTextActiveStyle"
+        app:elevation="2dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

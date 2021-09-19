@@ -6,4 +6,10 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
 
+    <style name="BottomNavigationViewTextActiveStyle"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+
+    </style>
+
 </resources>

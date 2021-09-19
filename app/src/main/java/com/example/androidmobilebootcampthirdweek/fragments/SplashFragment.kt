@@ -33,7 +33,7 @@ class SplashFragment : Fragment() {
     ): View? {
 
         changeStatusBarColor(R.color.white_tint)
-        // in every fragment we call this method with different color parameters
+        // in every fragment we call this method with different conditional_colors parameters
         // the goal is to make visual consistency between the status bar and the actual screen
 
         Handler(Looper.getMainLooper()).postDelayed({

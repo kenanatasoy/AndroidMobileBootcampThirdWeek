@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/battle_selector.xml" value="0.19895833333333332" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/deck_selector.xml" value="0.19895833333333332" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/ic_avatar_01.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/ic_avatar_02.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/ic_avatar_03.xml" value="0.2703125" />
@@ -12,7 +14,9 @@
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/ic_avatar_07.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/ic_avatar_08.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/ic_avatar_09.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable-v24/profile_selector.xml" value="0.19895833333333332" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/avatar_holder_circle.xml" value="0.14635416666666667" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/bottom_nav_items_color.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/circle_log_out_corners.xml" value="0.25925925925925924" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/circular_button.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/circular_countdown_timer.xml" value="0.2703125" />
@@ -26,6 +30,7 @@
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_avatar_07.xml" value="0.10520833333333333" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_battle_active.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_battle_passive.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_battleactive.xml" value="0.19895833333333332" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_circle_checkbox_outline_checked.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_circle_checkbox_unchecked.xml" value="0.25925925925925924" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_circular_rectangle_11.xml" value="0.2703125" />
@@ -34,6 +39,9 @@
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_dark_yellow_crown.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_dark_yellow_crown_holder.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_deck.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_deck_passive.xml" value="0.10462962962962963" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_deckactive.xml" value="0.19895833333333332" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_edit.xml" value="0.16927083333333334" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_edit_icon.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_ellipse_1.xml" value="0.25925925925925924" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_ellipse_2.xml" value="0.25925925925925924" />
@@ -47,8 +55,11 @@
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_instagram_logo.xml" value="0.184375" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_log_out.xml" value="0.25925925925925924" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_profile_active.xml" value="0.18518518518518517" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_profile_icon.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_profile_logo.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_profile_passive.xml" value="0.12760416666666666" />
+        <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_profileactive.xml" value="0.19895833333333332" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_right_arrow.xml" value="0.25925925925925924" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_right_arrow_black.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/AndroidMobileBootcampThirdWeek/app/src/main/res/drawable/ic_splash_logo.xml" value="0.2703125" />
